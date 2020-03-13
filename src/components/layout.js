@@ -64,6 +64,18 @@ const Layout = ({ children }) => (
           </div>
         </div>
 
+        <footer
+        style={{
+          margin: '0 auto',
+          padding: '2rem',
+          paddingTop: 0,
+          backgroundColor: 'black',
+          color: 'white',
+        }}
+        >
+        This is the footer
+        </footer>
+
       </MDXProvider>
     )}
   />
