@@ -36,11 +36,12 @@ const Layout = ({ children }) => (
         >
           {children}
 
-          <Header siteTitle={data.site.siteMetadata.title}>
+          <Header siteTitle={data.site.siteMetadata.title}  >
             <Navigation />
           </Header>
 
-          <div class="px-2" id="image-grid">
+          <div class="px-2" id="image-grid"
+          >
             <div class="flex -mx-2">
               <div class="w-1/2 px-2">
                 <div class="bg-gray-400 h-12">A</div>
@@ -68,9 +69,10 @@ const Layout = ({ children }) => (
         style={{
           margin: '0 auto',
           padding: '2rem',
-          paddingTop: 0,
-          backgroundColor: 'black',
+          paddingTop: '2rem',
+          backgroundColor: '#2b2b2b',
           color: 'white',
+          textAlign: 'center',
         }}
         >
         This is the footer
