@@ -3,7 +3,7 @@ import Typography from "typography"
 const typography = new Typography({
   // Base Config
   baseFontSize: "17px",
-  baseLineHeight: 1.6,
+  baseLineHeight: 5,
   scaleRatio: 3.6,
 
   // Heading Settings
@@ -16,14 +16,21 @@ const typography = new Typography({
   bodyColor: "#1e2023",
   bodyWeight: "400",
   boldWeight: "500",
+  baseLineHeight: 3,
 
   overrideThemeStyles: ({ rhythm }) => ({
+    h3: {
+      color: "#FF6A3C",
+    },
     h4: {
       fontWeight: 400,
     },
-
     "footer h4": {
-      color: "#fff",
+      color:"#fff",
+    },
+
+    "#intro-text h1": {
+      color: "#FFEFEA",
     }
   })
 })

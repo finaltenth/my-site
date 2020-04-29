@@ -33,18 +33,19 @@ const Layout = ({ children }) => (
 
         </div>
 
-
+        <div class="animation-container">
         <div class="flex">
           <div id ="animation1" class="w-2/5 dan-blue flex-square"></div>
-          <div class="w-1/5 dan-blue flex-square">B</div>
+          <div class="w-1/5 dan-blue flex-square"></div>
           <div id="animation3" class="w-1/5 dan-orange flex-square"></div>
           <div id="animation4" class="w-1/5 dan-white flex-square"></div>
         </div>
         <div class="flex">
-          <div class="w-1/5 dan-blue flex-square">A</div>
+          <div class="w-1/5 dan-blue flex-square"></div>
           <div id ="animation6" class="w-1/5 dan-white flex-square"></div>
           <div id ="animation7" class="w-1/5 dan-black flex-square"></div>
           <div id ="animation8" class="w-2/5 dan-white flex-square"></div>
+        </div>
         </div>
 
 
@@ -104,32 +105,27 @@ const Layout = ({ children }) => (
 
         </div>
 
+        
+
         <div
         style={{
           backgroundColor: "#FFEFEA",
-          padding: "3em",
         }}
           >
-          Triangle graphic goes
+          <div class="flex mb-4 container mx-auto p-8">
+          <div class="w-1/2 bg-gray-400 h-12 pr-8"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
+          <div class="w-1/2 bg-gray-500 h-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry. 
+          Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
         </div>
         
-        <div
-        style={{
-          backgroundColor: "#FFEFEA",
-          padding: "3em",
-        }}
-          >
-          <div class="container mx-auto">
-          Left and right
-          </div>
+        <div class="clearfix"></div>
         </div>
-
 
         <footer
         style={{
           margin: '0 auto',
-          padding: '2rem',
-          paddingTop: '2rem',
+          paddingTop: "4em",
+          paddingBottom: "4em",
           backgroundColor: '#3D372E',
           color: '#fff',
           textAlign: 'center',
