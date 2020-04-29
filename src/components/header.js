@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import Navigation from './navigation'
 import PropTypes from 'prop-types'
 import React from 'react'
 
@@ -14,21 +15,23 @@ const Header = ({ siteTitle, children }) => (
     }}
   >
     {children}
-    <section>
-      <div class="logo"><img src="media/svg/key-logo.svg" /></div>
-      <div class="intro">
-        <h1>Dan Coverdale is a full stack designer from Preston, Lancashire.</h1>
-        <p>Experienced digital designer with a demonstrated history of working in the design industry. Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.
-        I'm looking to refocus and text the next step in my career to provide value throughout a product lifecycle.</p>
-        <div class="learning">
-        <h3>This week i'm exploring</h3>
-        <p>Card sorting methodologies</p></div>
+
+
+    <div class="flex mb-4">
+      <div class="w-1/2 bg-gray-400 h-12"><Navigation /></div>
+      <div class="w-1/2 bg-gray-500 h-12"><img src="media/svg/key-logo.svg" /></div>
+    </div>
+
+    <div class="flex mb-4">
+      <div class="w-1/2">
+      <h1>Dan Coverdale is a full stack designer from Preston, Lancashire.</h1>
+      <p class="py-4">Experienced digital designer with a demonstrated history of working in the design industry.
+      Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.</p>
+      <p>Looking to refocus and text the next step in my career to provide value throughout a product lifecycle.</p>
       </div>
 
-
-
-    </section>
-  </div>
+    </div>
+</div>
 )
 
 Header.propTypes = {

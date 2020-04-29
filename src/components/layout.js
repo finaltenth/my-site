@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from "@mdx-js/tag";
 
 import Header from './header'
-import Navigation from './navigation'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -30,7 +29,7 @@ const Layout = ({ children }) => (
           {children}
 
           <Header siteTitle={data.site.siteMetadata.title}  >
-            <Navigation />
+
           </Header>
 
 
@@ -38,11 +37,25 @@ const Layout = ({ children }) => (
 
         <div
           style={{
-            backgroundColor: "#0096C2",
             padding: "3em",
           }}
         >
-        Pattern block here
+
+        <div class="flex">
+          <div class="w-2/5 bg-gray-500 h-12">A</div>
+          <div class="w-1/5 bg-gray-200 h-12">B</div>
+          <div class="w-1/5 bg-gray-500 h-12">C</div>
+          <div class="w-1/5 bg-gray-500 h-12">D</div>
+        </div>
+        <div class="flex">
+          <div class="w-1/5 bg-gray-500 h-12">A</div>
+          <div class="w-1/5 bg-gray-200 h-12">B</div>
+          <div class="w-1/5 bg-gray-500 h-12">C</div>
+          <div class="w-2/5 bg-gray-500 h-12">D</div>
+        </div>
+
+
+
         </div>
 
         <div
@@ -51,8 +64,13 @@ const Layout = ({ children }) => (
             padding: "3em",
           }}
         >
-        <h2>Portfolio intro text</h2>
-        <h4 class="text-center py-4">Work undertaken at Giant Digital - 2007-2020</h4>
+
+        <div class="flex mb-4">
+          <div class="w-1/2 bg-gray-400 h-12"><h1>Portfolio intro text</h1></div>
+          <div class="w-1/2 bg-gray-500 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
+        </div>
+
+
         </div>
 
 
@@ -67,27 +85,27 @@ const Layout = ({ children }) => (
         <div class="portfolio-container max-width">
             <div class="portfolio-item" id="item1" >
               <p>Internal</p>
-                <h3><a href="case1.html">A design system</a></h3>
+                <h2><a href="case1.html">A design system</a></h2>
             </div>
             <div class="portfolio-item" id="item2">
               <p>Non profit</p>
-                <h3>Making wishes come true</h3>
+                <h2>Making wishes come true</h2>
             </div>
             <div class="portfolio-item" id="item3">
               <p>Non profit</p>
-                <h3>A clearer vision</h3>
+                <h2>A clearer vision</h2>
             </div>
             <div class="portfolio-item" id="item4">
               <p>Language school</p>
-                <h3>The heart of Galway</h3>
+                <h2>The heart of Galway</h2>
             </div>
             <div class="portfolio-item">
               <p>Internal</p>
-                <h3><a href="case1.html">A design system</a></h3>
+                <h2><a href="case1.html">A design system</a></h2>
             </div>
             <div class="portfolio-item">
               <p>Non profit</p>
-                <h3>Making wishes come true</h3>
+                <h2>Making wishes come true</h2>
             </div>
 
           </div>

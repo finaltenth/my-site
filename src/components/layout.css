@@ -28490,8 +28490,8 @@ table {
 }
 .portfolio-item {
   background-color: #fff;
+  color: #FF6A3C;
   padding:2em;
-  background-color:$black;
   margin-right:1em;
   margin-bottom:1em;
   border-radius:4px;
@@ -28504,5 +28504,5 @@ table {
     -o-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
     background-position: center;
-      background-size: cover;
+    background-size: cover;
 }
