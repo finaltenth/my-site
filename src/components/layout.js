@@ -26,14 +26,7 @@ const Layout = ({ children }) => (
         }}
       >
 
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 1290,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
+        <div>
           {children}
 
           <Header siteTitle={data.site.siteMetadata.title}  >
@@ -43,7 +36,12 @@ const Layout = ({ children }) => (
 
         </div>
 
-        <div Style="backgroundColor: orange">
+        <div
+          style={{
+            backgroundColor: "#FF6A3C",
+            padding: "4em",
+          }}
+        >
 
         <section id="portfolio">
         <div class="container max-width">
@@ -78,13 +76,21 @@ const Layout = ({ children }) => (
 
         </div>
 
+        <div
+        style={{
+          backgroundColor: "#FFEFEA",
+        }}
+          >
+          Text block
+        </div>
+
 
         <footer
         style={{
           margin: '0 auto',
           padding: '2rem',
           paddingTop: '2rem',
-          backgroundColor: '#2b2b2b',
+          backgroundColor: '#3D372E',
           color: 'white',
           textAlign: 'center',
         }}
