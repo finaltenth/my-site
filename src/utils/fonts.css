@@ -1,0 +1,14 @@
+/* Import Google Fonts here as you normally would */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+/* Declare Google fonts below */
+
+/* Declare self hosted fonts below */
+@font-face {
+  font-family: "xxx";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/xxx.woff2") format("woff2"),
+    url("/fonts/xxx.woff") format("woff");
+}

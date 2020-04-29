@@ -23,6 +23,13 @@ module.exports = {
         ]
       },
     },
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography.js",
+        omitGoogleFont: false,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
