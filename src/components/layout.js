@@ -38,8 +38,27 @@ const Layout = ({ children }) => (
 
         <div
           style={{
+            backgroundColor: "#0096C2",
+            padding: "3em",
+          }}
+        >
+        Pattern block here
+        </div>
+
+        <div
+          style={{
+            backgroundColor: "#fff",
+            padding: "3em",
+          }}
+        >
+        <h2>Portfolio intro text</h2>
+        </div>
+
+
+        <div
+          style={{
             backgroundColor: "#FF6A3C",
-            padding: "4em",
+            padding: "3em",
           }}
         >
 
@@ -79,6 +98,7 @@ const Layout = ({ children }) => (
         <div
         style={{
           backgroundColor: "#FFEFEA",
+          padding: "3em",
         }}
           >
           Text block
