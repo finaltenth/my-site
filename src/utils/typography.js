@@ -7,8 +7,8 @@ const typography = new Typography({
   scaleRatio: 3.6,
 
   // Heading Settings
-  headerFontFamily: ["Arnold", "sans-serif"],
-  headerWeight: "700",
+  headerFontFamily: ["Monument Extended", "sans-serif"],
+  headerWeight: "900",
   headerColor: "#1e2023",
 
   // Body Settings

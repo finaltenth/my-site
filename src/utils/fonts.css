@@ -5,10 +5,19 @@
 
 /* Declare self hosted fonts below */
 @font-face {
-  font-family: "xxx";
+  font-family: "Monument Extended";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-display: swap;
-  src: url("/fonts/xxx.woff2") format("woff2"),
-    url("/fonts/xxx.woff") format("woff");
+  src: url("/fonts/monumentextended-ultrabold-webfont.woff2") format("woff2"),
+    url("/fonts/monumentextended-ultrabold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/monumentextended-ultralight-webfont.woff2") format("woff2"),
+    url("/fonts/monumentextended-ultralight-webfont.woff") format("woff");
 }
