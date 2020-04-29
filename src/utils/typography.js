@@ -16,6 +16,16 @@ const typography = new Typography({
   bodyColor: "#1e2023",
   bodyWeight: "400",
   boldWeight: "500",
+
+  overrideThemeStyles: ({ rhythm }) => ({
+    h4: {
+      fontWeight: 300,
+    },
+
+    ".something h5": {
+      color: "#f09"
+    }
+  })
 })
 
 // Insert styles directly into the <head>

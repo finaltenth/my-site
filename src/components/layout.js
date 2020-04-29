@@ -79,27 +79,27 @@ const Layout = ({ children }) => (
         <div class="portfolio-container container mx-auto">
             <div class="portfolio-item py-4" id="item1" >
               <p>Internal</p>
-                <h2 class="py-4"><a href="case1.html">A design system</a></h2>
+                <h3 class="py-4"><a href="case1.html">A design system</a></h3>
             </div>
             <div class="portfolio-item" id="item2">
               <p>Non profit</p>
-                <h2 class="py-4">Making wishes come true</h2>
+                <h3 class="py-4">Making wishes come true</h3>
             </div>
             <div class="portfolio-item" id="item3">
               <p>Non profit</p>
-                <h2 class="py-4">A clearer vision</h2>
+                <h3 class="py-4">A clearer vision</h3>
             </div>
             <div class="portfolio-item" id="item4">
               <p>Language school</p>
-                <h2 class="py-4">The heart of Galway</h2>
+                <h3 class="py-4">The heart of Galway</h3>
             </div>
             <div class="portfolio-item">
               <p>Internal</p>
-                <h2 class="py-4"><a href="case1.html">A design system</a></h2>
+                <h3 class="py-4"><a href="case1.html">A design system</a></h3>
             </div>
             <div class="portfolio-item">
               <p>Non profit</p>
-                <h2 class="py-4">Making wishes come true</h2>
+                <h3 class="py-4">Making wishes come true</h3>
             </div>
 
           </div>
@@ -107,6 +107,15 @@ const Layout = ({ children }) => (
 
         </div>
 
+        <div
+        style={{
+          backgroundColor: "#FFEFEA",
+          padding: "3em",
+        }}
+          >
+          Triangle graphic goes here
+        </div>
+        
         <div
         style={{
           backgroundColor: "#FFEFEA",
