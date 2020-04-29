@@ -52,6 +52,7 @@ const Layout = ({ children }) => (
           }}
         >
         <h2>Portfolio intro text</h2>
+        <h4 class="text-center py-4">Work undertaken at Giant Digital - 2007-2020</h4>
         </div>
 
 
@@ -63,34 +64,33 @@ const Layout = ({ children }) => (
         >
 
         <section id="portfolio">
-        <div class="container max-width">
-            <div class="item" id="item1" >
+        <div class="portfolio-container max-width">
+            <div class="portfolio-item" id="item1" >
               <p>Internal</p>
                 <h3><a href="case1.html">A design system</a></h3>
             </div>
-            <div class="item" id="item2">
+            <div class="portfolio-item" id="item2">
               <p>Non profit</p>
                 <h3>Making wishes come true</h3>
             </div>
-            <div class="item" id="item3">
+            <div class="portfolio-item" id="item3">
               <p>Non profit</p>
                 <h3>A clearer vision</h3>
             </div>
-            <div class="item" id="item4">
+            <div class="portfolio-item" id="item4">
               <p>Language school</p>
                 <h3>The heart of Galway</h3>
             </div>
-            <div class="item">
+            <div class="portfolio-item">
               <p>Internal</p>
                 <h3><a href="case1.html">A design system</a></h3>
             </div>
-            <div class="item">
+            <div class="portfolio-item">
               <p>Non profit</p>
                 <h3>Making wishes come true</h3>
             </div>
 
           </div>
-        <h4>Work undertaken at Giant Digital - 2007-2020</h4>
         </section>
 
         </div>
