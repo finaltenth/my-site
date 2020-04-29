@@ -35,27 +35,22 @@ const Layout = ({ children }) => (
 
         </div>
 
-        <div
-          style={{
-            padding: "3em",
-          }}
-        >
+
 
         <div class="flex">
-          <div class="w-2/5 bg-gray-500 h-12">A</div>
-          <div class="w-1/5 bg-gray-200 h-12">B</div>
-          <div class="w-1/5 bg-gray-500 h-12">C</div>
-          <div class="w-1/5 bg-gray-500 h-12">D</div>
+          <div class="w-2/5 dan-blue h-12">A</div>
+          <div class="w-1/5 dan-blue h-12">B</div>
+          <div class="w-1/5 dan-orange h-12">C</div>
+          <div class="w-1/5 dan-white h-12">D</div>
         </div>
         <div class="flex">
-          <div class="w-1/5 bg-gray-500 h-12">A</div>
-          <div class="w-1/5 bg-gray-200 h-12">B</div>
-          <div class="w-1/5 bg-gray-500 h-12">C</div>
-          <div class="w-2/5 bg-gray-500 h-12">D</div>
+          <div class="w-1/5 dan-blue h-12">A</div>
+          <div class="w-1/5 dan-orange h-12">B</div>
+          <div class="w-1/5 dan-black h-12">C</div>
+          <div class="w-2/5 dan-white h-12">D</div>
         </div>
 
 
-        </div>
 
         <div
           style={{

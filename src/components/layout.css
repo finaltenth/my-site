@@ -28513,3 +28513,13 @@ table {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.dan-orange {
+  background-color: #FF6A3C;
+}
+.dan-blue {
+  background-color: #0096C2;
+}
+.dan-black {
+  background-color: #3D372E;
+}
