@@ -18,11 +18,11 @@ const Header = ({ siteTitle, children }) => (
 
 
     <div class="flex mb-4 container mx-auto py-10">
-      <div class="w-1/2 bg-gray-400 h-12"><Navigation /></div>
+      <div id="nav" class="w-1/2 bg-gray-400 h-12"><Navigation /></div>
       <div class="w-1/2 bg-gray-500 h-12"><img class="" src="src/images/key-logo.svg" alt="Dan Coverdale logo" /></div>
     </div>
 
-    <div class="flex mb-4 container mx-auto">
+    <div id="intro-text" class="flex mb-4 container mx-auto">
       <div class="w-1/2 py-10 ">
       <h1>Dan Coverdale is a full stack designer from Preston, Lancashire.</h1>
       <p class="py-4">Experienced digital designer with a demonstrated history of working in the design industry.

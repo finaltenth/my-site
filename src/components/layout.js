@@ -113,7 +113,7 @@ const Layout = ({ children }) => (
           padding: "3em",
         }}
           >
-          Triangle graphic goes here
+          Triangle graphic goes
         </div>
         
         <div

@@ -28523,3 +28523,10 @@ table {
 .dan-black {
   background-color: #3D372E;
 }
+#nav li a, #nav li a:active {
+  color: #fff;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}

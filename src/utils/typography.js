@@ -22,8 +22,8 @@ const typography = new Typography({
       fontWeight: 300,
     },
 
-    ".something h5": {
-      color: "#f09"
+    "#intro-text h1": {
+      color: "#FFEFEA"
     }
   })
 })
