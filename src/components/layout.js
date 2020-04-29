@@ -29,25 +29,22 @@ const Layout = ({ children }) => (
           {children}
 
           <Header siteTitle={data.site.siteMetadata.title}  >
-
           </Header>
 
-
         </div>
 
 
-
         <div class="flex">
-          <div class="w-2/5 dan-blue h-12">A</div>
-          <div class="w-1/5 dan-blue h-12">B</div>
-          <div class="w-1/5 dan-orange h-12">C</div>
-          <div class="w-1/5 dan-white h-12">D</div>
+          <div id ="animation1" class="w-2/5 dan-blue flex-square"></div>
+          <div class="w-1/5 dan-blue flex-square">B</div>
+          <div id="animation3" class="w-1/5 dan-orange flex-square"></div>
+          <div id="animation4" class="w-1/5 dan-white flex-square"></div>
         </div>
         <div class="flex">
-          <div class="w-1/5 dan-blue h-12">A</div>
-          <div class="w-1/5 dan-orange h-12">B</div>
-          <div class="w-1/5 dan-black h-12">C</div>
-          <div class="w-2/5 dan-white h-12">D</div>
+          <div class="w-1/5 dan-blue flex-square">A</div>
+          <div id ="animation6" class="w-1/5 dan-white flex-square"></div>
+          <div id ="animation7" class="w-1/5 dan-black flex-square"></div>
+          <div id ="animation8" class="w-2/5 dan-white flex-square"></div>
         </div>
 
 
@@ -93,11 +90,11 @@ const Layout = ({ children }) => (
               <p>Language school</p>
                 <h3 class="py-4">The heart of Galway</h3>
             </div>
-            <div class="portfolio-item">
+            <div class="portfolio-item" id="item2">
               <p>Internal</p>
                 <h3 class="py-4"><a href="case1.html">A design system</a></h3>
             </div>
-            <div class="portfolio-item">
+            <div class="portfolio-item" id="item3">
               <p>Non profit</p>
                 <h3 class="py-4">Making wishes come true</h3>
             </div>
@@ -134,11 +131,13 @@ const Layout = ({ children }) => (
           padding: '2rem',
           paddingTop: '2rem',
           backgroundColor: '#3D372E',
-          color: 'white',
+          color: '#fff',
           textAlign: 'center',
         }}
         >
-        This is the footer
+        <div class="dan-blue container mx-auto p-8">
+          <h4>Would you like me to work with you? Get in touch</h4>
+          </div>
         </footer>
 
       </MDXProvider>

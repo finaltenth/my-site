@@ -19,11 +19,11 @@ const typography = new Typography({
 
   overrideThemeStyles: ({ rhythm }) => ({
     h4: {
-      fontWeight: 300,
+      fontWeight: 400,
     },
 
-    "#intro-text h1": {
-      color: "#FFEFEA"
+    "footer h4": {
+      color: "#fff",
     }
   })
 })
