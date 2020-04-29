@@ -40,30 +40,44 @@ const Layout = ({ children }) => (
             <Navigation />
           </Header>
 
-          <div class="px-2" id="image-grid"
-          >
-            <div class="flex -mx-2">
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-400 h-12">A</div>
-              </div>
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-500 h-12">B</div>
-              </div>
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-400 h-12">C</div>
-              </div>
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-400 h-12">A</div>
-              </div>
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-500 h-12">B</div>
-              </div>
-              <div class="w-1/2 px-2">
-                <div class="bg-gray-400 h-12">C</div>
-              </div>
-            </div>
-          </div>
+
         </div>
+
+        <div Style="backgroundColor: orange">
+
+        <section id="portfolio">
+        <div class="container max-width">
+            <div class="item" id="item1" >
+              <p>Internal</p>
+                <h3><a href="case1.html">A design system</a></h3>
+            </div>
+            <div class="item" id="item2">
+              <p>Non profit</p>
+                <h3>Making wishes come true</h3>
+            </div>
+            <div class="item" id="item3">
+              <p>Non profit</p>
+                <h3>A clearer vision</h3>
+            </div>
+            <div class="item" id="item4">
+              <p>Language school</p>
+                <h3>The heart of Galway</h3>
+            </div>
+            <div class="item">
+              <p>Internal</p>
+                <h3><a href="case1.html">A design system</a></h3>
+            </div>
+            <div class="item">
+              <p>Non profit</p>
+                <h3>Making wishes come true</h3>
+            </div>
+
+          </div>
+        <h4>Work undertaken at Giant Digital - 2007-2020</h4>
+        </section>
+
+        </div>
+
 
         <footer
         style={{
