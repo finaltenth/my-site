@@ -28505,4 +28505,11 @@ table {
     transition: background-color 0.5s ease;
     background-position: center;
     background-size: cover;
+    background-color: #3D372E;
+}
+/** Animation grid **/
+.animation-example {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

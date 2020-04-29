@@ -55,7 +55,6 @@ const Layout = ({ children }) => (
         </div>
 
 
-
         </div>
 
         <div
@@ -65,8 +64,8 @@ const Layout = ({ children }) => (
           }}
         >
 
-        <div class="flex mb-4">
-          <div class="w-1/2 bg-gray-400 h-12"><h1>Portfolio intro text</h1></div>
+        <div class="flex mb-4 container mx-auto">
+          <div class="w-1/2 bg-gray-400 h-12"><h1>The work</h1></div>
           <div class="w-1/2 bg-gray-500 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
         </div>
 
@@ -82,30 +81,30 @@ const Layout = ({ children }) => (
         >
 
         <section id="portfolio">
-        <div class="portfolio-container max-width">
-            <div class="portfolio-item" id="item1" >
+        <div class="portfolio-container container mx-auto">
+            <div class="portfolio-item py-4" id="item1" >
               <p>Internal</p>
-                <h2><a href="case1.html">A design system</a></h2>
+                <h2 class="py-4"><a href="case1.html">A design system</a></h2>
             </div>
             <div class="portfolio-item" id="item2">
               <p>Non profit</p>
-                <h2>Making wishes come true</h2>
+                <h2 class="py-4">Making wishes come true</h2>
             </div>
             <div class="portfolio-item" id="item3">
               <p>Non profit</p>
-                <h2>A clearer vision</h2>
+                <h2 class="py-4">A clearer vision</h2>
             </div>
             <div class="portfolio-item" id="item4">
               <p>Language school</p>
-                <h2>The heart of Galway</h2>
+                <h2 class="py-4">The heart of Galway</h2>
             </div>
             <div class="portfolio-item">
               <p>Internal</p>
-                <h2><a href="case1.html">A design system</a></h2>
+                <h2 class="py-4"><a href="case1.html">A design system</a></h2>
             </div>
             <div class="portfolio-item">
               <p>Non profit</p>
-                <h2>Making wishes come true</h2>
+                <h2 class="py-4">Making wishes come true</h2>
             </div>
 
           </div>
@@ -119,7 +118,9 @@ const Layout = ({ children }) => (
           padding: "3em",
         }}
           >
-          Text block
+          <div class="container mx-auto">
+          Left and right
+          </div>
         </div>
 
 

@@ -20,7 +20,7 @@ module.exports = {
               sizeByPixelDensity: true
             }
           }
-        ]        
+        ]
       },
     },
     'gatsby-plugin-react-helmet',
