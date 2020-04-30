@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Portfolio elements **/
+.portfolio-container {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.portfolio-item {
+  padding: 2em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  background-color: #fff;
+  min-height: 4rem;
+}
+.portfolio-item:hover {
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+  background-color: #3d372e;
+}
+.portfolio-item:hover h3,
+.portfolio-item:hover a {
+  color: #fff;
+}
+#item1.portfolio-item:hover {
+  background-image: url(/images/IMG_4346.jpg);
+  opacity: 0.7;
+}
+
+#item2.portfolio-item:hover {
+  background-image: url(/images/wish.jpg);
+  opacity: 0.9;
+}
+
+#item3.portfolio-item:hover {
+  background-image: url(/images/wakefield.jpg);
+  opacity: 0.9;
+}
+
+#item4.portfolio-item:hover {
+  background-image: url(/images/galway.jpg);
+  opacity: 0.8;
+}
+
+/** Animation grid **/
+.flex-square {
+}
+.flex-square:before {
+  content: '';
+  float: left;
+  padding-top: 100%;
+}
+.animation-container {
+}
+.animation-example {
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+#animation1 {
+  background-image: url(/images/triangles-left-black.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation3 {
+  background-image: url(/images/triangles-vertical.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation4 {
+  background-image: url(/images/hal.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation6 {
+  background-image: url(/images/star.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation8 {
+  background-image: url(/images/triangles-left-black.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dan-white,
+.dan-white img {
+  background-color: #fff;
+}
+
+.dan-orange,
+.dan-orange img {
+  background-color: #ff6a3c;
+}
+
+.dan-blue,
+.dan-blue img {
+  background-color: #0096c2;
+}
+
+.dan-black,
+.dan-black img {
+  background-color: #3d372e;
+}
+
+#nav li a,
+#nav li a:active {
+  color: #fff;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}

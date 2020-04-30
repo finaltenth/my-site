@@ -1,49 +1,50 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Starter MDX Basic',
     description:
       'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@chrisbiscardi',
+    author: '@chrisbiscardi'
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-mdx`,
       options: {
         defaultLayouts: { default: path.resolve('./src/components/layout.js') },
         gatsbyRemarkPlugins: [
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1035,
               sizeByPixelDensity: true
             }
           }
         ]
-      },
+      }
     },
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: "src/utils/typography.js",
-        omitGoogleFont: false,
-      },
+        pathToConfigModule: 'src/utils/typography.js',
+        omitGoogleFont: false
+      }
     },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
+        path: `${__dirname}/src/pages`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
@@ -56,11 +57,11 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
-      },
-    },
+        icon: 'src/images/gatsby-icon.png' // This path is relative to the root of the site.
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
-  ],
-}
+  ]
+};
