@@ -28575,6 +28575,15 @@ table {
   background-repeat: no-repeat;
   background-position: center center;
 }
+#animation6:hover {
+  background-size: 60%;
+}
+#animation7 {
+  background-image: url(/images/hal.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 #animation8 {
   background-image: url(/images/triangles-left-black.svg);
   background-repeat: no-repeat;
