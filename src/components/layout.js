@@ -59,13 +59,14 @@ const Layout = ({ children }) => (
 
         <div
           style={{
-            backgroundColor: "#fff",
+            backgroundColor: "#3D372E",
+            color: "#fff",
           }}
         >
 
         <div class="flex container mx-auto py-10">
-          <div class="w-1/2 bg-gray-400 h-12"><h1>The work</h1></div>
-          <div class="w-1/2 bg-gray-500 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
+          <div class="w-1/2 h-12"><h1>The work</h1></div>
+          <div class="w-1/2 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
           <div class="clearfix"></div>
         </div>
 
@@ -112,7 +113,7 @@ const Layout = ({ children }) => (
 
         </div>
 
-        <div
+        <div class="page-divide"
         style={{
           backgroundColor: "#FF6A3C",
         }}

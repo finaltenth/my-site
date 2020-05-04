@@ -28481,6 +28481,15 @@ table {
     z-index: auto;
   }
 }
+header {
+
+}
+.page-divide {
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
 /** Portfolio elements **/
 .portfolio-container {
   flex-wrap: wrap;
