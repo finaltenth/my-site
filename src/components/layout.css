@@ -28553,7 +28553,7 @@ table {
 }
 #animation1 {
   background-image: url(/images/triangles-left-black.svg);
-  background-repeat: no-repeat;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -28577,9 +28577,16 @@ table {
 }
 #animation8 {
   background-image: url(/images/triangles-left-black.svg);
-  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center center;
+  background-size: 100%;
+}
+.logo img {
+  height:7em;
+}
+.logo img:hover {
+    transform: rotate(10deg);
+    transition-timing-function: cubic-bezier(0,0,1,1);
 }
 
 .dan-orange {

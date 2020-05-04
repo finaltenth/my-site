@@ -60,13 +60,13 @@ const Layout = ({ children }) => (
         <div
           style={{
             backgroundColor: "#fff",
-            padding: "3em",
           }}
         >
 
-        <div class="flex mb-4 container mx-auto">
+        <div class="flex container mx-auto py-10">
           <div class="w-1/2 bg-gray-400 h-12"><h1>The work</h1></div>
           <div class="w-1/2 bg-gray-500 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
+          <div class="clearfix"></div>
         </div>
 
 
@@ -82,7 +82,7 @@ const Layout = ({ children }) => (
 
         <section id="portfolio">
         <div class="portfolio-container container mx-auto">
-            <div class="portfolio-item py-4" id="item1" >
+            <div class="portfolio-item" id="item1" >
               <p>Internal</p>
                 <h3 class="py-4"><a href="case1.html">A design system</a></h3>
             </div>
@@ -130,9 +130,9 @@ const Layout = ({ children }) => (
           <div class="w-1/2 bg-gray-400 h-12 pr-8"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
           <div class="w-1/2 bg-gray-500 h-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
           Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
+          <div class="clearfix"></div>
         </div>
 
-        <div class="clearfix"></div>
         </div>
 
         <footer

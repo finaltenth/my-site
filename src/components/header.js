@@ -18,7 +18,7 @@ const Header = ({ siteTitle, children }) => (
 
     <div class="flex mb-4 container mx-auto py-10">
       <div id="nav" class="w-1/2 h-12"><Navigation /></div>
-      <div class="w-1/5 h-36 float-right"><img class="h-18" src="/images/key-logo.svg" alt="Dan Coverdale logo" /></div>
+      <div class="w-1/2 h-16 float-right logo"><img class="float-right" src="/images/key-logo.svg" alt="Dan Coverdale logo" /></div>
     </div>
 
     <div id="intro-text" class="flex mb-4 container mx-auto content-center">
