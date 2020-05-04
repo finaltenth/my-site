@@ -28540,10 +28540,10 @@ table {
 .flex-square:before {
     content: "";
     float: left;
-    padding-top: 100%;
+    padding-top: 50%;
 }
 .animation-container {
-  
+  background-color: "#fff";
 }
 .animation-example {
   background-size: 90%;
@@ -28553,7 +28553,7 @@ table {
 }
 #animation1 {
   background-image: url(/images/triangles-left-black.svg);
-  background-size: 100%;
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -28577,9 +28577,9 @@ table {
 }
 #animation8 {
   background-image: url(/images/triangles-left-black.svg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top right;
 }
 
 .dan-orange {
@@ -28591,6 +28591,9 @@ table {
 .dan-black {
   background-color: #3D372E;
 }
+.dan-white {
+  background-color: #fff;
+}
 #nav li a, #nav li a:active {
   color: #fff;
   display: inline-block;
@@ -28598,5 +28601,3 @@ table {
   margin-right: 1.5rem;
   text-decoration: none;
 }
-
-

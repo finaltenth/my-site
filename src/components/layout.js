@@ -33,6 +33,13 @@ const Layout = ({ children }) => (
 
         </div>
 
+        <div
+          style={{
+            backgroundColor: "#3D372E",
+            padding: "3em",
+          }}
+        >
+
         <div class="animation-container">
         <div class="flex">
           <div id ="animation1" class="w-2/5 dan-blue flex-square"></div>
@@ -47,7 +54,7 @@ const Layout = ({ children }) => (
           <div id ="animation8" class="w-2/5 dan-white flex-square"></div>
         </div>
         </div>
-
+        </div>
 
 
         <div
@@ -105,7 +112,14 @@ const Layout = ({ children }) => (
 
         </div>
 
-        
+        <div
+        style={{
+          backgroundColor: "#FF6A3C",
+        }}
+          >
+          <img src="/images/triangle-divide.svg" alt="Dan Coverdale logo" />
+        </div>
+
 
         <div
         style={{
@@ -114,10 +128,10 @@ const Layout = ({ children }) => (
           >
           <div class="flex mb-4 container mx-auto p-8">
           <div class="w-1/2 bg-gray-400 h-12 pr-8"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
-          <div class="w-1/2 bg-gray-500 h-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry. 
+          <div class="w-1/2 bg-gray-500 h-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
           Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
         </div>
-        
+
         <div class="clearfix"></div>
         </div>
 
