@@ -64,9 +64,9 @@ const Layout = ({ children }) => (
           }}
         >
 
-        <div class="flex container mx-auto py-10">
-          <div class="w-1/2 h-12"><h1>The work</h1></div>
-          <div class="w-1/2 h-12"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
+        <div class="flex container mx-auto py-10 align-middle">
+          <div class="w-1/2"><h1>The work</h1></div>
+          <div class="w-1/2 py-2"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
           <div class="clearfix"></div>
         </div>
 
@@ -82,10 +82,10 @@ const Layout = ({ children }) => (
         >
 
         <section id="portfolio">
-        <div class="portfolio-container container mx-auto">
+        <div class="portfolio-container container mx-auto py-8">
             <div class="portfolio-item" id="item1" >
-              <p>Internal</p>
-                <h3 class="py-4">A clearer vision</h3>
+              <p>Side project</p>
+                <h3 class="py-4">Something personal</h3>
             </div>
             <div class="portfolio-item" id="item2">
               <p>Non profit</p>

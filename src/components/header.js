@@ -22,10 +22,10 @@ const Header = ({ siteTitle, children }) => (
     </div>
 
 
-    
+
 
     <div id="intro-text" class="flex mb-4 container mx-auto content-center">
-      <div class="w-3/5 py-10 ">
+      <div class="w-3/5 py-6 ">
       <h1>Dan Coverdale is a full stack designer from Preston, Lancashire.</h1>
       <p class="py-4">Experienced digital designer with a demonstrated history of working in the design industry.
       Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.</p>

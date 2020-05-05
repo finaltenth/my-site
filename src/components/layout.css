@@ -28510,6 +28510,8 @@ header {
 }
 .portfolio-item {
   padding:2em;
+  padding-top:3em;
+  padding-bottom:3em;
   margin-right:1em;
   margin-bottom:1em;
   border-radius:4px;
@@ -28599,6 +28601,10 @@ header {
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
+}
+#animation5:hover {
+  transform: rotate(10deg);
+  transition-timing-function: cubic-bezier(0,0,1,1);
 }
 #animation6 {
   background-image: url(/images/star.svg);
