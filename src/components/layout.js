@@ -51,7 +51,7 @@ const Layout = ({ children }) => (
           <div id="animation5" class="w-1/5 dan-blue flex-square"></div>
           <div id="animation6" class="w-1/5 dan-white flex-square"></div>
           <div id="animation7" class="w-1/5 dan-black flex-square"></div>
-          <div id="animation8" class="w-2/5 dan-white flex-square"></div>
+          <div id="animation8" class="w-2/5 dan-orange flex-square"></div>
         </div>
         </div>
         </div>
@@ -85,7 +85,7 @@ const Layout = ({ children }) => (
         <div class="portfolio-container container mx-auto">
             <div class="portfolio-item" id="item1" >
               <p>Internal</p>
-                <h3 class="py-4"><a href="case1.html">A design system</a></h3>
+                <h3 class="py-4">A clearer vision</h3>
             </div>
             <div class="portfolio-item" id="item2">
               <p>Non profit</p>
@@ -101,24 +101,23 @@ const Layout = ({ children }) => (
             </div>
             <div class="portfolio-item" id="item2">
               <p>Internal</p>
-                <h3 class="py-4"><a href="case1.html">A design system</a></h3>
+                <h3 class="py-4">A clearer vision</h3>
             </div>
             <div class="portfolio-item" id="item3">
               <p>Non profit</p>
-                <h3 class="py-4">Making wishes come true</h3>
+                <h3 class="py-4">A clearer vision</h3>
             </div>
-
+            <div class="clearfix"></div>
           </div>
         </section>
 
         </div>
 
-        <div class="page-divide"
+        <div class="page-divide py-4"
         style={{
           backgroundColor: "#FF6A3C",
         }}
           >
-          <img src="/images/triangle-divide.svg" alt="Dan Coverdale logo" />
         </div>
 
 
@@ -127,11 +126,10 @@ const Layout = ({ children }) => (
           backgroundColor: "#FFEFEA",
         }}
           >
-          <div class="flex mb-4 container mx-auto p-8">
-          <div class="w-1/2 bg-gray-400 h-12 pr-8"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
-          <div class="w-1/2 bg-gray-500 h-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
+          <div class="flex container mx-auto py-20">
+          <div class="w-1/2 pr-12"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
+          <div class="w-1/2 pr-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
           Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
-          <div class="clearfix"></div>
         </div>
 
         </div>

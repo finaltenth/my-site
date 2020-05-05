@@ -19,11 +19,15 @@ const typography = new Typography({
   baseLineHeight: 3,
 
   overrideThemeStyles: ({ rhythm }) => ({
+    h1: {
+      color: "#FFEFEA",
+    },
     h3: {
       color: "#FF6A3C",
     },
     h4: {
       fontWeight: 400,
+      color: "#FFEFEA",
     },
     "footer h4": {
       color:"#fff",

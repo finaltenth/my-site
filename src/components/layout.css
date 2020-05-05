@@ -28485,9 +28485,12 @@ header {
 
 }
 .page-divide {
-  height:100%;
-  padding:0;
-  margin:0;
+  height:4em;
+  background-color:purple;
+  background-image: url(/images/triangle-divide.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /** Portfolio elements **/
@@ -28503,7 +28506,6 @@ header {
   margin-bottom:1em;
   border-radius:4px;
   background-color: #fff;
-  min-height:4rem;
 }
 .portfolio-item:hover {
     color: #fff;
@@ -28562,7 +28564,13 @@ header {
 }
 #animation1 {
   background-image: url(/images/triangles-left-black.svg);
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation2 {
+  background-image: url(/images/ok.svg);
+  background-size: 70% 70%;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -28575,6 +28583,12 @@ header {
 #animation4 {
   background-image: url(/images/hal.svg);
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#animation5 {
+  background-image: url(/images/flower.svg);
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -28594,10 +28608,10 @@ header {
   background-position: center center;
 }
 #animation8 {
-  background-image: url(/images/triangles-left-black.svg);
+  background-image: url(/images/triangles-right-black.svg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 .logo img {
   height:7em;
