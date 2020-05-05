@@ -28484,6 +28484,14 @@ table {
 header {
 
 }
+#nav li {
+  display:inline-block;
+  padding-bottom:10px;
+}
+#nav li a:hover {
+  border-bottom: 1px solid;
+
+}
 .page-divide {
   height:4em;
   background-color:purple;

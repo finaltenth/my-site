@@ -21,6 +21,9 @@ const Header = ({ siteTitle, children }) => (
       <div class="w-1/2 h-16 float-right logo"><img class="float-right" src="/images/key-logo.svg" alt="Dan Coverdale logo" /></div>
     </div>
 
+
+    
+
     <div id="intro-text" class="flex mb-4 container mx-auto content-center">
       <div class="w-3/5 py-10 ">
       <h1>Dan Coverdale is a full stack designer from Preston, Lancashire.</h1>
@@ -28,8 +31,10 @@ const Header = ({ siteTitle, children }) => (
       Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.</p>
       <p>Looking to refocus and text the next step in my career to provide value throughout a product lifecycle.</p>
       </div>
-
     </div>
+
+
+
 </div>
 )
 
