@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
 
         <div class="flex container mx-auto py-10 align-middle">
           <div class="w-1/2"><h1>The work</h1></div>
-          <div class="w-1/2 py-2"><h4 class="text-right">Work undertaken at Giant Digital - 2007-2020</h4></div>
+
           <div class="clearfix"></div>
         </div>
 
