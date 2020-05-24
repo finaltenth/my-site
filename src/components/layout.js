@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from "@mdx-js/tag";
-
+import TitleBar from '../components/TitleBar'
+import HeaderGraphic from '../components/HeaderGraphic'
 import Header from './header'
+import Footer from './footer'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -33,8 +35,23 @@ const Layout = ({ children }) => (
 
         </div>
 
+        <div
+          style={{
+            backgroundColor: "#3D372E",
+            padding: "1em",
+          }}
+        >
+        <TitleBar />
+        </div>
 
-
+        <div
+          style={{
+            backgroundColor: "#3D372E",
+            padding: "3em",
+          }}
+        >
+        <HeaderGraphic />
+        </div>
 
         <div
           style={{
@@ -112,22 +129,7 @@ const Layout = ({ children }) => (
         </div>
 
         </div>
-
-        <footer
-        style={{
-          margin: '0 auto',
-          paddingTop: "4em",
-          paddingBottom: "4em",
-          backgroundColor: '#3D372E',
-          color: '#fff',
-          textAlign: 'center',
-        }}
-        >
-        <div class="dan-blue container mx-auto p-8">
-          <h4>Would you like me to work with you? Get in touch</h4>
-        </div>
-
-        </footer>
+        <Footer />
 
       </MDXProvider>
     )}

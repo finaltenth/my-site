@@ -26,15 +26,8 @@ const LayoutInternal = ({ children }) => (
         </div>
 
 
+        Test text
 
-        <div
-        style={{
-          backgroundColor: "#FFEFEA",
-        }}
-          >
-
-
-        </div>
 
         <footer
         style={{
