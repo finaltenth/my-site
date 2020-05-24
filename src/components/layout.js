@@ -127,20 +127,6 @@ const Layout = ({ children }) => (
           <h4>Would you like me to work with you? Get in touch</h4>
         </div>
 
-        <div class="flex container mx-auto py-20">
-          <div class="w-1/3 float-left "><img class="float-left w-16" src="/images/key-logo.svg" alt="Dan Coverdale logo" /></div>
-          <div class="w-1/3 float-left text-left  p-4">
-            <h4>This is a title</h4>
-            <p class="py-4">Experienced digital designer with a demonstrated history of working in the design industry.
-            Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.</p>
-          </div>
-          <div class="w-1/3 float-left text-left  p-4">
-            <h4>This is a title</h4>
-            <p class="py-4">Experienced digital designer with a demonstrated history of working in the design industry.
-            Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX.</p>
-          </div>
-        </div>
-
         </footer>
 
       </MDXProvider>

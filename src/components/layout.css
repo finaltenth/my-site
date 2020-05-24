@@ -550,6 +550,11 @@ table {
   }
 }
 
+p {
+  font-size:19px;
+  line-height: 24px;
+  font-weight: 200;
+}
 /**
   * Here you would add any of your custom component classes; stuff that you'd
   * want loaded *before* the utilities so that the utilities could still
@@ -28487,6 +28492,12 @@ header {
 #nav li {
   display:inline-block;
   padding-bottom:10px;
+  font-family: "Monument Extended", "sans-serif";
+  font-weight:500;
+}
+#nav li a {
+  text-transform: uppercase;
+  font-family:
 }
 #nav li a:hover {
   border-bottom: 1px solid;

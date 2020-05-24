@@ -3,7 +3,7 @@ import Typography from "typography"
 const typography = new Typography({
   // Base Config
   baseFontSize: "17px",
-  baseLineHeight: 5,
+  baseLineHeight: 8,
   scaleRatio: 3.6,
 
   // Heading Settings
