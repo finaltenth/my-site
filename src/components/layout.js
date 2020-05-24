@@ -33,28 +33,7 @@ const Layout = ({ children }) => (
 
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#3D372E",
-            padding: "3em",
-          }}
-        >
 
-        <div class="animation-container">
-        <div class="flex">
-          <div id ="animation1" class="w-2/5 dan-blue flex-square"></div>
-          <div id="animation2" class="w-1/5 dan-blue flex-square"></div>
-          <div id="animation3" class="w-1/5 dan-orange flex-square"></div>
-          <div id="animation4" class="w-1/5 dan-white flex-square"></div>
-        </div>
-        <div class="flex">
-          <div id="animation5" class="w-1/5 dan-blue flex-square"></div>
-          <div id="animation6" class="w-1/5 dan-white flex-square"></div>
-          <div id="animation7" class="w-1/5 dan-black flex-square"></div>
-          <div id="animation8" class="w-2/5 dan-orange flex-square"></div>
-        </div>
-        </div>
-        </div>
 
 
         <div
@@ -127,7 +106,7 @@ const Layout = ({ children }) => (
         }}
           >
           <div class="flex container mx-auto py-20">
-          <div class="w-1/2 pr-12"><h3>I’m currently taking on new projects, and open to new employment opportunities.</h3></div>
+          <div class="w-1/2 pr-12"><h3>Lets talk</h3></div>
           <div class="w-1/2 pr-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
           Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
         </div>

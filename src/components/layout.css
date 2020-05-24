@@ -28527,7 +28527,7 @@ header {
     background-position: center;
     background-size: cover;
     background-size: 100%;
-    background-color: #3D372E;
+    background-color: #fff;
 }
 .portfolio-item:hover h3, .portfolio-item:hover a {
   color:#fff;

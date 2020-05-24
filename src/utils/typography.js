@@ -32,6 +32,9 @@ const typography = new Typography({
     "footer h4": {
       color:"#fff",
     },
+    "#intro-text p": {
+      color:"#fff",
+    },
     "#intro-text h1": {
       color: "#fff",
     }
