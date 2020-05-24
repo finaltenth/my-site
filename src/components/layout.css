@@ -28602,10 +28602,6 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#animation5:hover {
-  transform: rotate(10deg);
-  transition-timing-function: cubic-bezier(0,0,1,1);
-}
 #animation6 {
   background-image: url(/images/star.svg);
   background-size: 90%;

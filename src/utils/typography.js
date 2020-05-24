@@ -9,7 +9,7 @@ const typography = new Typography({
   // Heading Settings
   headerFontFamily: ["Monument Extended", "sans-serif"],
   headerWeight: "900",
-  headerColor: "#1e2023",
+  headerColor: "#fff",
 
   // Body Settings
   bodyFontFamily: ["Rubik", "sans-serif"],
@@ -20,20 +20,20 @@ const typography = new Typography({
 
   overrideThemeStyles: ({ rhythm }) => ({
     h1: {
-      color: "#FFEFEA",
+      color: "#fff",
     },
     h3: {
       color: "#FF6A3C",
     },
     h4: {
       fontWeight: 400,
-      color: "#FFEFEA",
+      color: "#fff",
     },
     "footer h4": {
       color:"#fff",
     },
     "#intro-text h1": {
-      color: "#FFEFEA",
+      color: "#fff",
     }
   })
 })
