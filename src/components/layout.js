@@ -6,6 +6,7 @@ import TitleBar from '../components/TitleBar'
 import HeaderGraphic from '../components/HeaderGraphic'
 import Header from './header'
 import Footer from './footer'
+import PortfolioGrid from './portfolio-grid'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -29,29 +30,12 @@ const Layout = ({ children }) => (
 
         <div>
           {children}
-
           <Header siteTitle={data.site.siteMetadata.title}  >
           </Header>
-
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#3D372E",
-            padding: "1em",
-          }}
-        >
         <TitleBar />
-        </div>
-
-        <div
-          style={{
-            backgroundColor: "#3D372E",
-            padding: "3em",
-          }}
-        >
         <HeaderGraphic />
-        </div>
 
         <div
           style={{
@@ -70,44 +54,9 @@ const Layout = ({ children }) => (
         </div>
 
 
-        <div
-          style={{
-            backgroundColor: "#FF6A3C",
-            padding: "3em",
-          }}
-        >
 
-        <section id="portfolio">
-        <div class="portfolio-container container mx-auto py-8">
-            <div class="portfolio-item" id="item1" >
-              <p>Side project</p>
-                <h3 class="py-4">Something personal</h3>
-            </div>
-            <div class="portfolio-item" id="item2">
-              <p>Non profit</p>
-                <h3 class="py-4">Making wishes come true</h3>
-            </div>
-            <div class="portfolio-item" id="item3">
-              <p>Non profit</p>
-                <h3 class="py-4">A clearer vision</h3>
-            </div>
-            <div class="portfolio-item" id="item4">
-              <p>Language school</p>
-                <h3 class="py-4">The heart of Galway</h3>
-            </div>
-            <div class="portfolio-item" id="item2">
-              <p>Internal</p>
-                <h3 class="py-4">A clearer vision</h3>
-            </div>
-            <div class="portfolio-item" id="item3">
-              <p>Non profit</p>
-                <h3 class="py-4">A clearer vision</h3>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </section>
+        <PortfolioGrid />
 
-        </div>
 
         <div class="page-divide py-4"
         style={{
@@ -129,6 +78,7 @@ const Layout = ({ children }) => (
         </div>
 
         </div>
+
         <Footer />
 
       </MDXProvider>
