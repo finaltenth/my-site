@@ -1,5 +1,5 @@
 import React from "react"
-function PortfoliGrid(props) {
+function PortfolioGrid(props) {
   return (
 
     <div
@@ -40,4 +40,4 @@ function PortfoliGrid(props) {
     </div>
   )
 }
-export default PortfoliGrid
+export default PortfolioGrid

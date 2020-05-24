@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { MDXProvider } from "@mdx-js/tag";
-import TitleBar from '../components/TitleBar'
-import HeaderGraphic from '../components/HeaderGraphic'
+import TitleBar from './TitleBar'
+import HeaderGraphic from './HeaderGraphic'
+import Callout from './callout'
 import Header from './header'
 import Footer from './footer'
 import PortfolioGrid from './portfolio-grid'
@@ -53,31 +54,10 @@ const Layout = ({ children }) => (
 
         </div>
 
-
-
         <PortfolioGrid />
 
 
-        <div class="page-divide py-4"
-        style={{
-          backgroundColor: "#FF6A3C",
-        }}
-          >
-        </div>
-
-
-        <div
-        style={{
-          backgroundColor: "#FFEFEA",
-        }}
-          >
-          <div class="flex container mx-auto py-20">
-          <div class="w-1/2 pr-12"><h3>Lets talk</h3></div>
-          <div class="w-1/2 pr-12"><p class="text-left">Experienced digital designer with a demonstrated history of working in the design industry.
-          Skilled in all aspects of digital design, proficient in Sketch and the Adobe Creative suite through to UI/UX. Looking to take on a role in a larger organisation, or a non profit.</p></div>
-        </div>
-
-        </div>
+        <Callout />
 
         <Footer />
 
