@@ -11,8 +11,8 @@ function Footer(props) {
       textAlign: 'center',
     }}
     >
-    <div class="dan-blue container mx-auto p-8">
-      <h4>Would you like me to work with you? Get in touch</h4>
+    <div class="dan-orange container mx-auto p-8">
+      <h4>No idea what goes here</h4>
     </div>
 
     </footer>

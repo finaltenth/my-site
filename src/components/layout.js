@@ -35,8 +35,9 @@ const Layout = ({ children }) => (
           </Header>
         </div>
 
-        <TitleBar />
+
         <HeaderGraphic />
+        <TitleBar />
 
         <div
           style={{
@@ -46,7 +47,7 @@ const Layout = ({ children }) => (
         >
 
         <div class="flex container mx-auto py-10 align-middle">
-          <div class="w-1/2"><h1>The work</h1></div>
+          <div class="w-1/2"><h1>UX Projects</h1></div>
 
           <div class="clearfix"></div>
         </div>

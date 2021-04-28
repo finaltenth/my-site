@@ -26,7 +26,7 @@ const LayoutInternal = ({ children }) => (
         </div>
 
 
-        Test text
+        <HeaderGraphic />
 
 
         <footer
